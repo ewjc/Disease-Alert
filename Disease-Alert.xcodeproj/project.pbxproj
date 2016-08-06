@@ -17,8 +17,8 @@
 		09D45BDB1D5679C800CF5B76 /* Maps.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D45BDA1D5679C800CF5B76 /* Maps.storyboard */; };
 		09D45BDD1D5679DD00CF5B76 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D45BDC1D5679DD00CF5B76 /* HelpVC.swift */; };
 		09D45BDF1D5679FA00CF5B76 /* HelpPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D45BDE1D5679FA00CF5B76 /* HelpPostCell.swift */; };
-		09D45BE11D567A1500CF5B76 /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D45BE01D567A1500CF5B76 /* AlertVC.swift */; };
 		09D45BE31D567A2E00CF5B76 /* AlertPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D45BE21D567A2E00CF5B76 /* AlertPostCell.swift */; };
+		09D45BE51D567DF700CF5B76 /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D45BE41D567DF700CF5B76 /* AlertVC.swift */; };
 		7AC253A93334ADD9D96C4B53 /* Pods_Disease_Alert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E336699101BB78853DEB9BDF /* Pods_Disease_Alert.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,8 +35,8 @@
 		09D45BDA1D5679C800CF5B76 /* Maps.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Maps.storyboard; sourceTree = "<group>"; };
 		09D45BDC1D5679DD00CF5B76 /* HelpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
 		09D45BDE1D5679FA00CF5B76 /* HelpPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpPostCell.swift; sourceTree = "<group>"; };
-		09D45BE01D567A1500CF5B76 /* AlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
 		09D45BE21D567A2E00CF5B76 /* AlertPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPostCell.swift; sourceTree = "<group>"; };
+		09D45BE41D567DF700CF5B76 /* AlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
 		81F399F8748AEAE36430BC1B /* Pods-Disease-Alert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Disease-Alert.release.xcconfig"; path = "Pods/Target Support Files/Pods-Disease-Alert/Pods-Disease-Alert.release.xcconfig"; sourceTree = "<group>"; };
 		E336699101BB78853DEB9BDF /* Pods_Disease_Alert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Disease_Alert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF980BE15CA25CC0B7B97FE2 /* Pods-Disease-Alert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Disease-Alert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Disease-Alert/Pods-Disease-Alert.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				09D45BD81D5679AE00CF5B76 /* Alert.storyboard */,
-				09D45BE01D567A1500CF5B76 /* AlertVC.swift */,
 				09D45BE21D567A2E00CF5B76 /* AlertPostCell.swift */,
+				09D45BE41D567DF700CF5B76 /* AlertVC.swift */,
 			);
 			name = AlertFeed;
 			sourceTree = "<group>";
@@ -261,8 +261,8 @@
 				09D45BE31D567A2E00CF5B76 /* AlertPostCell.swift in Sources */,
 				09D45BDD1D5679DD00CF5B76 /* HelpVC.swift in Sources */,
 				09D45BC41D5678D000CF5B76 /* ViewController.swift in Sources */,
+				09D45BE51D567DF700CF5B76 /* AlertVC.swift in Sources */,
 				09D45BC21D5678D000CF5B76 /* AppDelegate.swift in Sources */,
-				09D45BE11D567A1500CF5B76 /* AlertVC.swift in Sources */,
 				09D45BDF1D5679FA00CF5B76 /* HelpPostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
