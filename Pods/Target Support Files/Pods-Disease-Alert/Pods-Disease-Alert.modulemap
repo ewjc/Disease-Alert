@@ -1,0 +1,6 @@
+framework module Pods_Disease_Alert {
+  umbrella header "Pods-Disease-Alert-umbrella.h"
+
+  export *
+  module * { export * }
+}
